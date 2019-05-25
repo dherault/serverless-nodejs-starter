@@ -1,6 +1,8 @@
 //import AWS from "aws-sdk";
+const a = null;
 
 export const hello = async (event, context) => {
+  console.log(a.b);
   //AWS.config.update({ region: "us-east-1" });
   return {
     statusCode: 200,
