@@ -12,6 +12,7 @@ custom:
     caching: false
     logs: true
   warmup:
+    prewarm: true
     enabled: true
     concurrency: 1
 
