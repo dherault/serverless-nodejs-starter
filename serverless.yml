@@ -8,6 +8,9 @@ plugins:
   - serverless-offline
 
 custom:
+  bundle:
+    caching: false
+    logs: true
   warmup:
     enabled: true
     concurrency: 1
