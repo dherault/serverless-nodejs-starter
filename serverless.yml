@@ -3,8 +3,8 @@ service: serverless-nodejs-starter
 
 # Use the serverless-webpack plugin to transpile ES6
 plugins:
-  - serverless-plugin-warmup
   - serverless-bundle
+  - serverless-plugin-warmup
   - serverless-offline
 
 custom:
