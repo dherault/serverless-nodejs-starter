@@ -43,7 +43,7 @@ functions:
     handler: services/posts/handler.hello
     events:
       - http:
-          path: hello
+          path: nested-hello
           method: get
 
 resources:
