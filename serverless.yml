@@ -39,6 +39,13 @@ functions:
           path: hello
           method: get
 
+  nestedHello:
+    handler: services/posts/handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+
 resources:
   Resources:
     GatewayResponseDefault4XX:
